@@ -4,4 +4,4 @@ apache:
         ports:
             - 8081:80
         volumes:
-            - /home/www/:/usr/local/apache2/htdocs/
+            - /home/www/server/:/usr/local/apache2/htdocs/
