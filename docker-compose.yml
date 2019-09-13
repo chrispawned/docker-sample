@@ -2,6 +2,6 @@ apache:
         image: httpd:2.4
         container_name: apache-test
         ports:
-            - 8080:80
+            - 8081:80
         volumes:
-            - /var/www/:/usr/local/apache2/htdocs/
+            - /home/www/:/usr/local/apache2/htdocs/
